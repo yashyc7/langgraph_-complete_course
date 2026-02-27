@@ -14,9 +14,8 @@ def process_value(state: AgentState) -> AgentState:
     Processes input values and updates result field.
     Returns new state (avoid in-place mutation).
     """
-    
+    print(state)
     total = sum(state["values"])
-    
     return {
         "values": state["values"],   # preserve input
         "name": state["name"],       # preserve input
@@ -53,3 +52,19 @@ print(app.get_graph().print_ascii())
                             #  | __end__ |
                             #  +---------+
                             # None
+
+
+# now lets check how this thing work 
+answers = app.invoke({"values":[1,2,3,4],"name":"Steve"})
+
+print(answers)
+
+
+"""
+{'values': [1, 2, 3, 4], 'name': 'Steve', 'result': 'Hi there Steve! 
+Your sum = 10'}
+"""
+
+# if i need only my result then 
+
+print(answers["result"])
