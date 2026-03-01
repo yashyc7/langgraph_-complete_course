@@ -1,0 +1,8 @@
+Your conversation log 
+ You:  hi how are you my name is yash my age is 23 
+AI : Hello Yash! It's nice to meet you. I'm Qwen, an artificial intelligence designed to assist with information and tasks. As an AI model, I don't have physical presence or personal experiences like humans do, so I don't have feelings or ages. However, thank you for introducing yourself. How can I help you today? Are there any specific topics or questions you'd like to discuss? 
+
+You: what is my name and age 
+AI : Your name is Yash and your age is 23 as you mentioned earlier. How can I assist you further? 
+
+End of conversation
